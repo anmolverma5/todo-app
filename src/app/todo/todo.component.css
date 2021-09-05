@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(198, 228, 228);
+}
+#title {
+  font-size: 18px;
+}
+.flex-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.todo-item {
+  margin: 12px 11px;
+  margin-bottom: 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 12px;
+  padding: 11px 2%;
+  display: flex;
+}
+button {
+  background: #ff3c41;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: #ff3c41;
+  text-decoration-thickness: 3px;
+}

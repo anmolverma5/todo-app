@@ -1,0 +1,11 @@
+.nav {
+  display: block;
+  border-style: outset;
+}
+h2 {
+  margin-left: 50px;
+  color: black;
+}
+.nav a {
+  text-decoration: none;
+}

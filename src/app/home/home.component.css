@@ -1,0 +1,58 @@
+.flex-container {
+  display: flex;
+  width: 50%;
+  height: 595px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  align-content: center;
+}
+button {
+  background: #ff3c41;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+body {
+  background-image: url(../../assets/images/bg.png);
+  border-radius: 20px;
+  width: 919px;
+  margin: auto;
+  height: 399px;
+  background-position: 30% 29% !important;
+  background-size: cover;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.count-item {
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: -220px;
+}
+#total-item {
+  width: 85px;
+  height: 36px;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 40px;
+  background-color: white;
+}
+.item-count {
+  margin-top: 270px;
+  margin-left: 580px;
+  display: flex;
+  align-items: flex-end;
+}
+#todo-list {
+  color: white;
+  display: flex;
+  position: absolute;
+  margin-left: -220px;
+  margin-top: 335px;
+}

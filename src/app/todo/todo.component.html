@@ -1,0 +1,25 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <div>
+    <h2 class="title">Things to do today</h2>
+  </div>
+  <div class="flex-container">
+    <table border="5">
+      <tr *ngFor="let todoitemscount of service.todoItemsList$ | async">
+        <div class="todo-item">
+          <div id="title" name="save" [ngClass]="{ completed: todoitemscount.completed }">{{todoitemscount.title}}
+          </div>
+          <div *ngIf="!todoitemscount.completed">
+            <button (click)="completeTask(todoitemscount.id)">Complete</button>
+          </div>
+        </div>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
