@@ -18,7 +18,7 @@ button {
   text-decoration: none;
 }
 body {
-  background-image: url(../../assets/images/bg.png);
+  background-image: url('https://raw.githubusercontent.com/anmolverma5/todo-app/main/src/assets/images/bg.png');
   border-radius: 20px;
   width: 919px;
   margin: auto;
